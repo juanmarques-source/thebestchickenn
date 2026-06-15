@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8)), url(img/frango.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+ol{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   list-style: none;
+   gap: 120px;
+   margin-top: 45px;
+   margin-left: 55px;
+  
+}
+.botao{
+    
+    width: 200px;
+    border-radius: 150px;
+    text-decoration: none;
+    justify-content: center;
+    padding: 40px;
+    background-color: #C83E29;
+    font-family: poppins;
+    color:#FFE3A2;
+    font-size: 30px;
+    font-weight: bolder;  
+    
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+
+body {
+    
+    background-size: cover;
+background-image: linear-gradient(rgba(0, 0, 0, 0.6)),url(img/frango.jpg );
+background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   height: 100vh;
+   justify-content: center;
+    
+}
+
+.botao {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.back-btn img {
+    width: 200px;
+    height: 10px;
+    margin-right: 2px; 
+    
+}
+
+
+.logo-google {
+    width:100;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+form {
+    width: 100%;
+}
+
+.input-group {
+    width: 100%;
+    height: 54px;
+    background-color: #3c3c3c; 
+    border: 1px solid #4a4a4a; 
+    border-radius: 4px; 
+    display: flex;
+    align-items: center;
+    padding:  15px;
+    margin-bottom: 18px;
+    
+}
+
+.icone {
+    width: 26px;
+    height: 26px;
+    margin-right: 15px;
+}
+
+.input-group input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+}
+
+ 
+
+.submit-botao {
+    width: 90%;
+    height: 52px;
+    background-color: #c84126; 
+    color: #ffffff;
+    border: none;
+    border-radius: 4px; 
+    font-size: 17px;
+    font-weight: bold;
+    
+   
+}
+
+
+
+
+
+
+.ou{
+    width: 100%;
+    margin: 25px 0;
+    text-align: center;
+}
+
+
+
+
+.google-botao{
+    width: 64px;
+    height: 54px;
+    background-color: #2b2b2b;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.linkb{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+

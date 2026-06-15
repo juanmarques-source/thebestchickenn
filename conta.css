@@ -1,0 +1,355 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color: #FFE3A2;
+}
+
+nav{
+    background-color:#C83E29;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#logo{
+    padding: 20px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.nav-links{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    text-align: center;
+    margin: 0 10px 0px 10px;
+}
+
+nav a{
+    padding: 5px;
+    color:#FFE3A2;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 560;
+}
+
+
+.material-symbols-outlined{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: #FFE3A2;
+}
+
+
+#barra_pesquisa{
+    background-color:#F7A74D;
+    width: 450px;
+    display: flex;
+    padding: 9px;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFE3A2;
+    text-align: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+#perfil{
+    font-size:11px;
+    color:#FFE3A2;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px;
+    margin-left: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+#carrinho{
+    background-color: #F7A74D;
+    padding: 20%;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color:#F7A74D
+}
+
+#perfil:hover{
+    color: #F7A74D;
+}
+
+#icone:hover{
+color:#F7A74D
+}
+
+a{
+    text-decoration: none;
+    color: #E5843E;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#caminho{
+    color: #E5843E;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    cursor: default;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+h2{
+    color: #D76133;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: default;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.atalhos{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    background-color: #F7A84D;
+    color: #D76133;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    width: 350px;
+    height: 70px;
+    cursor: pointer;
+    text-align: left;
+    margin-right: 250px;
+    margin-top: 1px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.atalhos:hover{
+    background-color: #ffb765e3;
+    transform: scale(1.04);
+}
+
+.atalhosconta{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    background-color: #F7A84D;
+    color: #D76133;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    width: 350px;
+    height: 70px;
+    cursor: default;
+    align-items: center;
+    text-align: left;
+    margin-right: 250px;
+    margin-top: 1px;
+}
+
+#voltar{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #D76133;
+    border: none;
+    background-color: #F7A84D;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.conta{
+    background-color: #F7A84D;
+    height: 495px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #B5532C;
+    font-size: 25px;
+    cursor: default;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.titulos{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #E5843E;
+    font-size: 23px; 
+    margin-left: 50px;
+    margin-top: 5px;
+    cursor: default;
+}
+
+.dados{
+    display: flex;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #e9e9e9db;
+    background-color: #E5843E;
+    width: 650px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.excluir{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #B5532C;
+    background-color: #FFE3A2;
+    border: 1px solid #C83E29;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 13px;
+    margin-top: 5px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.excluir:hover{
+    background-color: #ffd46e;
+    transform: scale(1.04);
+}
+
+.salvar{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #E9E9E9;
+    background-color: #C83E29;
+    border: 1px solid #C83E29;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 13px;
+    margin-top: 5px;
+    width: 300px;
+    margin-right: 70px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+.salvar:hover{
+    background-color: #982918;
+    transform: scale(1.04);
+}
+
+.fi{
+    color: #C83E29;
+}
+
+footer{
+    margin-top: 120px;
+    background-color: #FFE3A2;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+footer h5{
+    color: #C83E29;
+    font-size: 13px;
+}
+
+footer p{
+    color: rgba(200, 62, 41, 0.77);
+    font-size: 12px;
+    font-weight: 560;
+}
+
+footer a{
+    color:#C83E29;
+    font-size: 12px;
+    font-weight: 560;
+    color: rgba(200, 62, 41, 0.77);
+}
+
+.rodapé{
+    display: flex;
+    gap: 35px;
+}
+
+#app{
+    text-align: center;
+}
+
+.caixa{
+    width: 220px;
+}
+
+.icones{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    margin:15px 0 15px 0;
+}
+
+hr{
+    position: relative;
+    bottom: 60px;
+    color: #C83E29;
+    border: 1px solid #C83E29;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.icone-atalho{
+    background-color: #E5843E;
+    border-radius: 30px;
+    margin-right: 6px;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+}
+#bandeira{
+    width: 30px;
+    height: 20px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
